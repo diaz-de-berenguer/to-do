@@ -13,6 +13,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # my gems
 gem 'devise', '~> 3.5', '>= 3.5.6'
 gem 'bootstrap-sass', '~> 3.3.6'
+gem 'simple_form'
 
 group :development, :test do
 	gem 'sqlite3'

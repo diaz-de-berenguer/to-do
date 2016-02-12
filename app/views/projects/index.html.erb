@@ -1,0 +1,11 @@
+<div class="row">
+	<div class="col-md-8 col-md-offset-2">
+		<div class="container-fluid">
+			<h2>List of Projects</h2>
+			<%= link_to 'New Project', new_project_path, class: "btn btn-primary" %>	
+			<% @projects.each do |p| %>
+				<p><%= p.title %></p>
+			<% end %>	
+		</div>
+	</div>
+</div>
