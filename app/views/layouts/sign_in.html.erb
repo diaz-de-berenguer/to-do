@@ -8,7 +8,12 @@
 </head>
 <body>
 
-<%= yield %>
+  <div class="alert">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <%= flash_messages %>
+  </div>
+	
+	<%= yield %>
 
 </body>
 </html>

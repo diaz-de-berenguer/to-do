@@ -1,7 +1,7 @@
 class StartController < ApplicationController
-	layout 'start'
+  
+  before_action :authenticate_user!
 	
   def home
-  	redirect_to projects_path
   end
 end
